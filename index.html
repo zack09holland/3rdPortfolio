@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Page</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/album/">
+    <!-- Material Design Bootstrap -->
+    <link href="assets/css/mdb.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- JS Files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Cute+Font|Fascinate|Permanent+Marker&display=swap"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+    <!-- Original CSS File -->
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
+</head>
+
+<body>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+        
+        <!-- Back to top button -->
+        <a id="button"></a>
+    <!-- Heading bar-->
+    <!-- Container Div -->
+    <div class="container-fluid noPadding sticky-top bg-light headerBar">
+        <!-- Section 1: Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light shadow-lg">
+            <!-- Logo area / Button class -->
+            <!-- <a class="navbar-brand nameBrand" href="#">Zachary Holland</a> -->
+            <!-- Image Logo -->
+            <!-- <img class="headerLogo navbar-brand"src="assets/images/3dlogo.png"> -->
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+
+            <!-- Collapsible button -->
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <!-- The links of our navbar -->
+                    <li class="nav-item ">
+                        <a class="nav-link pr-5" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item ">
+                        <a class="nav-link pr-5" href="#aboutAnchor"> About </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link pr-5" href="#portfolioAnchor"> Portfolio </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pr-5" href="#contactAnchor">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!--Banner Content Div  -->
+    <div class="">
+        <div class="bannerDiv bg-image">
+            <!-- <div class="text-center"> -->
+            <div class="container text-center">
+                <h1 class="nameBrand">My name is Zachary Holland</h1>
+            </div>
+            <!-- </div> -->
+            <!-- <img class="bannerPhoto" src="assets/images/scaledDownBanner.JPG" alt="My backcountry trip to Mt. Rainier"> -->
+        </div>
+    </div>
+
+    <div class="container">
+        <a name="aboutAnchor">
+            <h1 class="aboutTitle " style="padding-top: 80px; margin-top: -80px;">About me!</h1>
+        </a>
+
+        <p>
+            I am student of the May 2019 UW Coding Bootcamp! I went to school at Western Washington University,
+            where I studied Geology and Computer Science.
+            Currently I work at HydromaxUSA in Seattle as a GIS Specialist but wanted to do something different and
+            new. My main passions in life are skiing, traveling and playing soccer; and ofcourse being in front of a
+            computer. Whether its
+            a new video game with a friend or writing an automation script in python, the limits of what you can do
+            on a
+            computer are endless.
+            <br>
+            <br>
+            I mostly worked with Java and
+            C in college. After graduating I chose to learn Python as it was the hot new thing and could be used for
+            many applications.
+            I decided to take this class to help streamline my web development learning as there is just too much to
+            teach myself effectively on my own in a reasonable amount of time. I hope to take the skills I've
+            learned in
+            this
+            class and get a new job
+            in the tech industry working on something exciting and challenging! Dream job would be able to work
+            remotely
+            and travel the world at the same time.
+        </p>
+    </div>
+    <div class="filler">
+
+    </div>
+    <!-- JumboTron -->
+
+    <div class="container pb-5">
+        <a name="portfolioAnchor">
+            <h2 class="display-4 aboutTitle" style="padding-top: 80px; margin-top: -80px;">Portfolio</h2>
+        </a>
+        <p>These are some of the projects I have done using a variety of different programming
+            languages. Some of them were done in school, for work and as personal side projects.
+        </p>
+    </div>
+
+    <!-- Container for the portfolio photos -->
+    <div class="container">
+        <div class="shadow-lg">
+                <div class="card mb-3" style="max-width: 1110px;">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img class="card-img-top img" src="assets/images/where2.png" alt="Card image"
+                                style="height: 350px; width:100%">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <p class="card-text"><strong>Where2.</strong> <br /> Second group project.
+                                    Website allows a user to search for events and restaurants in a
+                                    given area during a particular time frame.
+                                </p>
+                                <div class="btn-group">
+                                    <a href="https://desolate-cliffs-63136.herokuapp.com/"
+                                        class="btn btn-lg btn-outline-primary">View </a>
+                                    <!-- <a href="https://hollyw00d.github.io/group-project1-uw-coding-bootcamp/index.html"
+                                        class="btn btn-lg btn-outline-primary">View </a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="shadow-lg">
+            <div class="card mb-3" style="max-width: 1110px;">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img class="card-img-top" src="assets/images/gamer-finder.jpg" alt="Card image"
+                            style="height: 350px; width:100%">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <p class="card-text"><strong>Gamer Finder.</strong> <br />Website that allows gamers to find potential
+                                players to play with or to find new streams to start watching for their favorite types of games. <br />
+                                <div class="btn-group">
+                                    <a href="https://fierce-eyrie-80642.herokuapp.com/"
+                                        class="btn btn-lg btn-outline-primary">View </a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="shadow-lg">
+            <div class="card mb-3" style="max-width: 1110px;">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img class="card-img-top" src="assets/images/Melbourne_train_logo (1).svg" alt="Card image"
+                            style="height: 350px; width:100%">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <p class="card-text"><strong>Train Scheduler.</strong> <br />Website that provides a full
+                                listing of available trains to catch
+                                and when theyll be arriving next to take you to your destination! You can also add a
+                                train to run at your time to your destination. <br />
+                                <div class="btn-group">
+                                    <a href="https://zack09holland.github.io/Train-Scheduler/"
+                                        class="btn btn-lg btn-outline-primary">View </a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="shadow-lg">
+            <div class="card mb-3" style="max-width: 1110px;">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img class="card-img-top img" src="assets/images/giphy.gif" alt="Card image"
+                            style="height: 350px; width:100%">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <p class="card-text"><strong>Giftastic.</strong> <br />Website that allows to you search and
+                                play gifs depending on
+                                whatever fancys your curiosity! <br />
+                            </p>
+                            <div class="btn-group">
+                                <a href="https://zack09holland.github.io/Giftastic/"
+                                    class="btn btn-lg btn-outline-primary">View </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="shadow-lg">
+            <div class="card mb-3" style="max-width: 1110px;">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img class="card-img-top img" src="assets/images/winnerPhoto.jpg" alt="Card image"
+                            style="height: 350px; width:100%">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <p class="card-text"><strong>FIFA World Cup Trivia.</strong> <br />The objective of the game
+                                is to correctly guess the answers
+                                to the questions pertaining to the World Cup. <br />
+                            </p>
+                            <div class="btn-group">
+                                <a href="https://zack09holland.github.io/TriviaGame/"
+                                    class="btn btn-lg btn-outline-primary">View </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="shadow-lg">
+            <div class="card mb-3" style="max-width: 1110px;">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img class="card-img-top img" src="assets/images/crystalCollectorIcon.jpg" alt="Card image"
+                            style="height: 350px; width:100%">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <p class="card-text"><strong>CrystalCollector Game.</strong> <br />The objective of the game
+                                is to reach the score by clicking on the crystals.
+                                The values of the crystals are random and not explicitly stated for you. <br />
+                            </p>
+                            <div class="btn-group">
+                                <a href="https://zack09holland.github.io/unit-4-game/"
+                                    class="btn btn-lg btn-outline-primary">View </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="shadow-lg">
+            <div class="card mb-3" style="max-width: 1110px;">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img class="card-img-top img" src="assets/images/movieNameGame.jpg" alt="Card image"
+                            style="height: 350px; width:100%">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <p class="card-text"><strong>Word Guess Game.</strong> <br /> This game is like
+                                hangman where the user guesses the name of movies or tv shows. If the
+                                user guesses the correct word itll play the corresponding soundtrack.
+                            </p>
+                            <div class="btn-group">
+                                <a href="https://zack09holland.github.io/Word-Guess-Game/"
+                                    class="btn btn-lg btn-outline-primary">View </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="bottomFiller"></div>
+    <div class="">
+        <!-- Contact Form Container -->
+        <div class="bg-light mt-3 shadow-lg p-4">
+            <section class="mb-4">
+                <!--Section heading-->
+                <a name="contactAnchor">
+                    <h2 class="h1-responsive font-weight-bold text-center my-4 aboutTitle">Contact me</h2>
+                </a>
+                <!--Section description-->
+                <p class="text-center w-responsive mx-auto mb-5">Call or email for any questions you may have! Or if you
+                    want to hire me!</p>
+
+                <div class="row">
+                    <div class="col-md-9 mb-md-0 mb-5">
+                        <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="name" name="name" class="form-control">
+                                        <label for="name" class="">Your name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="email" name="email" class="form-control">
+                                        <label for="email" class="">Your email</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="subject" name="subject" class="form-control">
+                                        <label for="subject" class="">Subject</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+
+                                    <div class="md-form">
+                                        <textarea type="text" id="message" name="message" rows="2"
+                                            class="form-control md-textarea"></textarea>
+                                        <label for="message">Your message</label>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </form>
+
+                        <div class="text-center text-md-left">
+                            <a class="btn btn-primary"
+                                onclick="document.getElementById('contact-form').submit();">Send</a>
+                        </div>
+                        <div class="status"></div>
+                    </div>
+                    <!--Grid column-->
+                    <div class="col-md-3 text-center">
+                        <ul class="list-unstyled mb-0">
+                            <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                                <p>Seattle, WA 98117 USA</p>
+                            </li>
+
+                            <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                                <p>+ 01 234 567 89</p>
+                            </li>
+
+                            <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                                <p>zack09holland@gmail.com</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="assets/js/main.js" async defer></script>
+</body>
+
+</html>
